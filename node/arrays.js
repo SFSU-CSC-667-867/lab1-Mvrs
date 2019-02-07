@@ -12,10 +12,23 @@ console.log(array[0]);
 // change elements
 array[1] = 'hello';
 
+const newArr = []
+
+console.log(array)
+
 // for practice
 
-// use forEach
 
+// use forEach
+array.forEach( num => {
+    if (num === NaN) {
+        
+    }
+    newArr.push(num * 2)
+})
+
+// console.log(array)
+console.log(newArr)
 // use map
 
 // use pop
