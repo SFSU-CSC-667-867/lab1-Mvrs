@@ -30,13 +30,19 @@ array.forEach( num => {
 // console.log(array)
 console.log(newArr)
 // use map
-
+const newArray = array.map(i => i * 3)
+console.log(newArray)
 // use pop
-
 // use push
+newArray.push(7)
+console.log(newArray)
 
 // use shift
-
+newArray.unshift(9)
+console.log(newArray)
 // use unshift
 
+newArray.shift(9)
 // use filter
+const notNum =  newArray.filter(num => num !== num )
+console.log(notNum) // return NaN 'Hello'
